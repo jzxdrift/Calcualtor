@@ -335,7 +335,7 @@ public class CalculatorMain extends JFrame implements ClipboardOwner
 	public void setClipboardContents(String copyString)
 	{
 		this.copyString = new StringSelection(copyString);
-	    clipboard.setContents(this.copyString, null);
+	        clipboard.setContents(this.copyString, null);
 	}
 	
 	public String getClipboardContents()
